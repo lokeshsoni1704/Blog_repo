@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+    /* 1 rem = 16px but for making it 10px or 1 rem = 10px than do below thing */
+    font-size: 62.5%; 
+}
+html, body{
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 1.4rem;
+    margin: 0px auto;
+    width: 1120px;
+}
+ul{
+    list-style: none;
+}
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 9px auto;
+    /* border-bottom: 2px solid #f6f5f5; */
+    /* box-shadow: 0px 5px 4px rgba(221,221,221,0.25); */
+    
+}
+.container h1{
+   font-size: 30px;
+    
+}
+.container ul{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+}
+.container ul li{
+   font-size: 20px;
+
+}
+i {
+   padding: 0 10px;
+
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.hero_content{
+    /* min-width: 400px; */
+    padding: 30px 30px;
+    margin: 40px 50px;
+}
+.hero_content h1{
+    font-size: 72px;
+    line-height: 1.2;
+}
+.hero_content h4{
+    font-size: 29px;
+    color: grey;
+}
+.hero-image img{
+    border-radius: 70px;
+    margin-top: 5px;
+}
+.h-card{
+    margin-top: 80px;
+    display: flex;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    justify-content: space-between;
+    overflow: hidden;
+    box-shadow: 0px 5px 7px rgba(226, 224, 224, 0.55);
+  
+}
+.h-content {
+    padding: 40px 65px;
+}
+.h-content h2 {
+    padding-bottom: 20px;
+    font-size: 32px;
+}
+.h-content p {
+    padding-right: 100px;
+}
+.h-content img{
+    border-radius: 70px;
+}
+.status{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+    padding-right: 120px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.read-btn{
+   all:unset;
+   color: black;
+   font-weight: 600;
+   
+}
+.read-btn:hover{
+    border-bottom: 1px solid #ccc;
+}
+.card-container{
+    display: flex;
+    margin: 50px 0;
+}
+ .card-wrapper{
+ display: flex;
+ gap: 36px;
+}
+.card-v{
+    border: 1px solid transparent;
+    width: 350px;
+    border-radius:10px ;
+    overflow: hidden;
+    box-shadow: 0px 5px 7px rgb(82 77 77 / 20%);
+    
+}
+.card-v img{
+    width: 350px;
+    margin-bottom: 10px;
+}
+.card-v .c-content{
+    padding: 10px 30px;
+}
+ .c-content h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.c-content .status{
+    padding-right: 10px;
+    padding-bottom:10px ;
+    margin-top: 20px;
+}
+.big{
+    margin-bottom: 30px;
+}
+.big, .h-card{
+    margin-top: 0px;
+    border: 1px solid #e6e5e5;
+    border-radius: 10px;
+    box-shadow: 0px 5px 4px rgba(206, 203, 203, 0.55);
+    
+}
+.big .h-content{
+    margin-top: 90px ;
+    padding-top: 50px ;
+    padding-right: 20px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6px;
+}
+.banner{
+    margin-bottom: 0px;
+}
+.ban-img img{
+    width: 950px;
+    border-radius: 10px;
+}
+.post h1{
+    margin-top: 10px 0;
+    font-size: 32px;
+}
+.about-author{
+    display: flex;
+    gap: 30px;
+}
+.about-author h3{
+    font-size: 22px;
+}
+.about-author p{
+    font-size: 15px;
+    padding-top: 5px;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 20px ;
+    margin-left: 76px;
+    margin-right: 5px;
+}
+article hr{
+    margin-bottom: 20px ;
+    
+}
+/* article h2{
+    font-size: ;
+} */
+
